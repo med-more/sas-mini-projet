@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Name Chooser</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome To Random Name Chooser</h1>
+        <div class="inputs">
+            <input id="nameInput" placeholder="enter a name..." type="text">
+            <button id="addBtn">Add Name</button>
+        </div>
+        <div id="nameList" class="list"></div>
+
+        <button id="chooseBtn" class="choose">Pick Name</button>
+    </div>
+    <!-- POPUP -->
+     <div id="popup" class="popup hide">
+        <div class="popup-content">
+                <p>The Choosen Name is: </p>
+                <h2 id="choosenName"></h2>
+                <button id="nextBtn" class="close">Next</button>
+        </div>
+     </div>
+
+
+
+
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
