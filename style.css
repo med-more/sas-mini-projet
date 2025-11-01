@@ -1,0 +1,96 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f7f7f7;
+}
+
+.container{
+    width: 350px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.inputs{
+    display: flex;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+
+input{
+    flex: 1;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #aaa;
+}
+
+button{
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: none;
+    background: #eee;
+    cursor: pointer;
+}
+
+button:hover{
+    background: #ddd;
+}
+
+.list{
+    background: #fafafa;
+    border: 1px solid #ccc;
+    padding: 15px;
+    height: 120px;
+    border-radius: 10px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+}
+
+.name-item{
+    padding: 5px;
+    border-bottom: 1px dashed #ccc;
+}
+
+.choose{
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background: #e8e8e8;
+}
+
+.choose:disabled{
+    background: #ccc;
+    cursor: not-allowed;
+}
+
+/* Popup */
+
+.popup{
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0, 0, blue0, alpha0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hide{
+    display: none;
+}
+
+.popup-content{
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    width: 300px;
+}
+
+.close{
+    margin-top: 20px;
+    background: #ffdddd;
+    border: 1px solid red;
+}
